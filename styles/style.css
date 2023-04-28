@@ -17,6 +17,7 @@
 
 html{
     height: 100%;
+    width: 100%;
     
 }
 
@@ -207,6 +208,14 @@ body{
     .header__items__link{
         font-size: 1.2rem;
         
+    }
+    .apresentacao__conteudo__titulo{
+        text-align: center;
+        font-size: 2rem;
+        font-family: var(--fonte);
+    }
+    .apresentacao__conteudo__texto{
+        font-size:1.2rem;
     }
     .apresentacao__conteudo__botao__link{
         max-width: 600px;
