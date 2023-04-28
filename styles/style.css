@@ -67,10 +67,11 @@ body{
 .apresentacao{
     display: flex;
     gap: 2%;
-    align-items: center;
+    align-items:start;
     width: 100%;
     margin: 0 auto 10%;
     max-width: 1300px;
+    height: 50vh;
 
     
 }
@@ -158,6 +159,19 @@ body{
 }
 .strong{
     color: #47B5FF;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 1s ease-in-out;
 }
 
 @media (max-width: 1200px){

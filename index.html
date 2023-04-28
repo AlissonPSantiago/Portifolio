@@ -18,19 +18,18 @@
         </header>
         <main class="apresentacao">
             <section class="apresentacao__conteudo">
-                <h1 class ="apresentacao__conteudo__titulo">
-                    Buscando <strong class="strong">Conhecimento</strong> e <strong class="strong">Aperfeiçoamento</strong> na Arte de Codificar!
+                <h1 class ="animated-text apresentacao__conteudo__titulo">
+                    <strong class="strong">Desenvolvedor de software</strong> em busca de desafios e crescimento profissional.
                 </h1>
-                <p class="apresentacao__conteudo__texto">
-                    Olá! Sou Alisson, Engenheiro Eletricista especializado em automação, 
-                    cursando Engenharia da Computação. Buscando por projetos desafiadores 
-                    e crescer como desenvolvedor de software.
+                <p  class="animated-text apresentacao__conteudo__texto">
+                    Olá, sou Alisson, um desenvolvedor de software com formação em Engenharia Elétrica e cursando Engenharia da Computação. Buscando por projetos desafiadores 
+                    e crescer como desenvolvedor.
                 </p>
-                <div class= "apresentacao__conteudo__botao">
-                    <a  class = "apresentacao__conteudo__botao__link" href="https://www.linkedin.com/in/pereiraalisson/">
+                <div class= " apresentacao__conteudo__botao">
+                    <a  class = "animated-text apresentacao__conteudo__botao__link" href="https://www.linkedin.com/in/pereiraalisson/">
                         <img class = "apresentacao__conteudo__botao__link__icone"src="assets/link.png" alt="Logo do Linkedin"> <span>Linkedin</span>
                     </a>
-                    <a class = "apresentacao__conteudo__botao__link" href="https://linkexemplo.com">
+                    <a class = "animated-text apresentacao__conteudo__botao__link" href="https://linkexemplo.com">
                         <img class = "apresentacao__conteudo__botao__link__icone" src="assets/github.png" alt="Logo do GitHub"> GitHub
                     </a>
                 </div>
@@ -40,5 +39,13 @@
         <footer>
         </footer>
     </div>
+    <script>
+         document.addEventListener("DOMContentLoaded", function() {
+        const animatedTextElements = document.getElementsByClassName("animated-text");
+        for (let i = 0; i < animatedTextElements.length; i++) {
+            animatedTextElements[i].classList.add("fadeIn");
+        }
+    });
+    </script>
 </body>
 </html>
