@@ -51,7 +51,7 @@ body{
 .header__items__link{
     font-family: var(--fonte);
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color:var(--cor-terciaria);
     text-decoration: none;
 }
@@ -191,10 +191,12 @@ body{
     .apresentacao{
         flex-direction: column-reverse;
         padding: 0% 5% 4%;
+        height: 100%;
     }
     .apresentacao__conteudo{
         padding-top: 5%;
         width: auto;
+        margin: 0;
     }
     .apresentacao__conteudo__botao{
         gap: 15px;
@@ -208,6 +210,7 @@ body{
     .apresentacao__foto{
         width: 90%;
         padding: 5%;
+        margin: 0 auto;
     }
 }    
 
